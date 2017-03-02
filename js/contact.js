@@ -12,7 +12,7 @@ $(function() {
         submitSuccess: function($form, e) {
             e.preventDefault();// prevent default submit behaviour
             $.ajax({
-                url: "//formspree.ioi/hello@getsetbro.com", 
+                url: "//formspree.io/hello@getsetbro.com", 
                 type: "POST",
                 method: "POST",
                 dataType: "json",
